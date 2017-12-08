@@ -27,12 +27,10 @@
   },
   "version": "0.0.0-development",
   "scripts": {
-    "semantic-release":
-      "semantic-release pre && npm publish && semantic-release post",
-    "start": "node index.js",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "start": "DEBUG=metalsmith-* node index.js",
     "browser_sync": "browser-sync start --server build",
-    "dev":
-      "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
+    "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
     "build": "npm start"
   },
   "repository": {
