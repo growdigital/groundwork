@@ -116,6 +116,7 @@ Metalsmith(__dirname)
       format: 'ddd D MMM YYYY'
     })
   )
+  .use(permalinks())
   // permalinks with settings not working
   // .use(
   //   permalinks({
