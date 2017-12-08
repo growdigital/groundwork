@@ -25,7 +25,8 @@ Metalsmith(__dirname)
   })
   .source('./src')
   .destination('./build')
-  .clean(false)
+  // Does fresh build every time. Can slow down sites with lots of pages.
+  .clean(true)
   .use(markdown())
   .use(permalinks())
   .use(
