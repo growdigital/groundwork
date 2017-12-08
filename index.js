@@ -46,6 +46,12 @@ Metalsmith(__dirname)
       output: 'assets/styles.css'
     })
   )
+  // Optimise (uglify) CSS
+  .use(
+    cleancss({
+      files: 'assets/styles.css'
+    })
+  )
   .use(markdown())
   .use(permalinks())
   .use(
