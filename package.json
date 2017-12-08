@@ -15,7 +15,8 @@
     "start": "node index.js",
     "browser_sync": "browser-sync start --server build",
     "dev":
-      "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'"
+      "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
+    "build": "npm start"
   },
   "repository": {
     "type": "git",
