@@ -78,6 +78,14 @@ Metalsmith(__dirname)
       }
     })
   )
+  // +1 PostCSS. Use CSS preprocessor of your choice if you’d rather!
+  .use(
+    postcss({
+      plugins: {
+        'postcss-cssnext': {}
+      }
+    })
+  )
   .use(markdown())
   .use(permalinks())
   .use(
