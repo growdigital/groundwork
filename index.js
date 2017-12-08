@@ -52,6 +52,18 @@ Metalsmith(__dirname)
       files: 'assets/styles.css'
     })
   )
+  // Concatenate JavaScript
+  .use(
+    concat({
+      files: [
+        'assets/js/*.js',
+        'modules/objects/**/*.js',
+        'modules/components/**/**/*.js',
+        'modules/utilities/**/**/*.js'
+      ],
+      output: 'assets/scripts.js'
+    })
+  )
   .use(markdown())
   .use(permalinks())
   .use(
