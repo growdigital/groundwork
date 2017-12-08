@@ -86,6 +86,7 @@ Metalsmith(__dirname)
       }
     })
   )
+  .use(drafts())
   .use(markdown())
   .use(permalinks())
   .use(
