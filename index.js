@@ -64,6 +64,20 @@ Metalsmith(__dirname)
       output: 'assets/scripts.js'
     })
   )
+  // Optimise (uglify) JavaScript
+  .use(
+    uglifyjs({
+      src: ['assets/scripts.js'],
+      override: true,
+      uglifyOptions: {
+        mangle: true,
+        compress: {
+          unused: false,
+          warnings: true
+        }
+      }
+    })
+  )
   .use(markdown())
   .use(permalinks())
   .use(
