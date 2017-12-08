@@ -116,7 +116,12 @@ Metalsmith(__dirname)
       format: 'ddd D MMM YYYY'
     })
   )
-  .use(permalinks())
+  .use(
+    permalinks({
+      pattern: './posts/:title',
+      relative: false
+    })
+  )
   .use(
     templates({
       engine: 'handlebars'
