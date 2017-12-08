@@ -122,9 +122,11 @@ Metalsmith(__dirname)
       relative: false
     })
   )
+  // I like Handlebars templating. You can use what you like.
   .use(
     templates({
-      engine: 'handlebars'
+      engine: 'handlebars',
+      partials: 'partials'
     })
   )
   .build(function(err, files) {
