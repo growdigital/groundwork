@@ -97,11 +97,11 @@ Metalsmith(__dirname)
     })
   )
   // To help with debugging, use metadata
-  // .use(
-  //   metadata({
-  //     pattern: ['*.md', '*.html']
-  //   })
-  // )
+  .use(
+    metadata({
+      pattern: ['*.md', '*.html']
+    })
+  )
   // Use GitFriendlyMarkdown formatter
   .use(
     markdown({
