@@ -129,6 +129,15 @@ Metalsmith(__dirname)
       partials: 'partials'
     })
   )
+  // Create RSS feed
+  .use(
+    feed({
+      collection: 'post',
+      postDescription(file) {
+        return file.excerpt;
+      }
+    })
+  )
   .build(function(err, files) {
     if (err) {
       throw err;
