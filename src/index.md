@@ -1,16 +1,20 @@
 ---
-title: My Static Site & Blog TITLE
+title: Blank Groundwork page title
 layout: layout.hbs
 ---
 
-# HEADING
+# Metalsmith blog template
 
-<h2>Read what I have to say</h2>
+See [www.groundwork.rocks](https://www.groundwork.rocks) for instructions. [Fork me on GitHub](https://github.com/growdigital/groundwork).
 
-<a href="/posts/first-post/">First post</a>
+## Quick start:
 
-<a href="/posts/second-post/">Second post</a>
+```bash
+$ git clone git@github.com:growdigital/groundwork.git
+$ cd groundwork
+$ npm run dev
+```
 
-<a href="/posts/third-post/">Third post</a>
+## Make it your own
 
-<a href="/posts/fourth-post/">Fourth post</a>
+Enter your details in `package.json` and `index.js`.
