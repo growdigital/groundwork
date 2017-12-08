@@ -96,7 +96,12 @@ Metalsmith(__dirname)
       }
     })
   )
-  .use(markdown())
+  // To help with debugging, use metadata
+  // .use(
+  //   metadata({
+  //     pattern: ['*.md', '*.html']
+  //   })
+  // )  .use(markdown())
   .use(permalinks())
   .use(
     templates({
