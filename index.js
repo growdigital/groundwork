@@ -27,6 +27,25 @@ Metalsmith(__dirname)
   .destination('./build')
   // Does fresh build every time. Can slow down sites with lots of pages.
   .clean(true)
+  // Concatenation: the order is important
+  // Concatenate CSS
+  .use(
+    concat({
+      files: [
+        'assets/css/settings/variables.css',
+        'normalize.css/normalize.css',
+        'assets/css/settings/base.css',
+        'assets/css/settings/typography.css',
+        'assets/css/settings/responsive.css',
+        'modules/objects/**/*.css',
+        'modules/components/**/**/*.css',
+        'modules/utilities/**/**/*.css',
+        'assets/css/shame.css'
+      ],
+      searchPaths: ['node_modules'],
+      output: 'assets/styles.css'
+    })
+  )
   .use(markdown())
   .use(permalinks())
   .use(
