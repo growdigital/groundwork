@@ -139,6 +139,13 @@ Metalsmith(__dirname)
       }
     })
   )
+  // Move graphics assets out of modules and into /assets/images/ directory
+  .use(
+    move({
+      'modules/components/**/**/*.+(png|svg|ico|jpg)':
+        'assets/images/{name}{ext}'
+    })
+  )
   .build(function(err, files) {
     if (err) {
       throw err;
