@@ -1,0 +1,46 @@
+/* ==========================================================================
+   Shameful CSS
+   ========================================================================== */
+
+/**
+ * Put shameful CSS in here. Refactor later.
+ * http://csswizardry.com/2013/04/shame-css/
+ */
+
+/**
+ * Use the CSS Wizardry hack namespace
+ * eg ._footer-mobile {}
+ * https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/#hack-namespaces-_
+ */
+
+/* list-bare.css example of CSS object in /src/modules/objects/, header.hbs and footer.hbs */
+
+/* Temporary styling for layout */
+
+.header,
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  padding: 1.5rem;
+}
+
+.wrapper > * {
+  margin: 0 auto;
+  max-width: 44rem;
+}
+
+.o-list-bare > * {
+  margin: 0 1rem;
+}
+
+/* o-list-bare centered (both ways) inline list using flexbox */
+.o-list-bare {
+  align-items: center; /* Secondary axis alignment */
+  display: flex;
+  height: 100%; /* To fill container vertically */
+  justify-content: center;
+}

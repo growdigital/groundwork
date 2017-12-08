@@ -1,0 +1,10 @@
+<aside role="complementary">
+  {{#each collections }}
+  <h2>Posts</h2>
+    <ol class="o-list-disc">
+    {{#each this }}
+      <li><a href="/{{ path }}">{{ title }}</a></li>
+    {{/each}}
+    </ol>
+  {{/each}}
+</aside>
