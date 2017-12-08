@@ -10,12 +10,10 @@
   },
   "version": "0.0.0-development",
   "scripts": {
-    "semantic-release":
-      "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "start": "node index.js",
     "browser_sync": "browser-sync start --server build",
-    "dev":
-      "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
+    "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
     "build": "npm start"
   },
   "repository": {
@@ -25,6 +23,14 @@
   "devDependencies": {
     "semantic-release": "^8.2.0",
     "browser-sync": "^2.18.13",
-    "nodemon": "^1.12.1"
+    "nodemon": "^1.12.1",
+    "eslint": "^4.12.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
   }
 }
