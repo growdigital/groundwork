@@ -17,6 +17,8 @@
     "url": "https://github.com/growdigital/keepyernoseout.git"
   },
   "devDependencies": {
-    "semantic-release": "^8.2.0"
+    "semantic-release": "^8.2.0",
+    "browser-sync": "^2.18.13",
+    "nodemon": "^1.12.1"
   }
 }
