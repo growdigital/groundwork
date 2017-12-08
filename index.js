@@ -102,7 +102,12 @@ Metalsmith(__dirname)
   //     pattern: ['*.md', '*.html']
   //   })
   // )
-  .use(markdown())
+  // Use GitFriendlyMarkdown formatter
+  .use(
+    markdown({
+      gfm: true
+    })
+  )
   .use(permalinks())
   .use(
     templates({
