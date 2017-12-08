@@ -1,5 +1,5 @@
 ---
-pageTitle: About Groundwork
+title: About Groundwork
 layout: layout.hbs
 ---
 

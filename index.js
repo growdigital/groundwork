@@ -17,7 +17,7 @@ Metalsmith(__dirname)
   .metadata({
     site: {
       lang: 'en-gb',
-      title: 'Blank Groundwork',
+      name: 'Blank Groundwork',
       description: 'Blank Metalsmith blog template',
       url: 'https://blank.groundwork.rocks/',
       author: 'Jake Rayson'

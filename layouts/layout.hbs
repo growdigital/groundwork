@@ -1,89 +1,23 @@
 <!doctype html>
 <html lang="{{ site.lang }}">
 
-{{!-- {{> head}} --}}
+{{> head}}
 
-<head>
-  <meta charset="UTF-8">
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ site.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-  <link rel="stylesheet" href="/assets/styles.css">
-  <link rel="shortcut icon" href="/assets/images/favicon.ico">
-</head>
 
 <body class="no-js {{ path }}">
 
-  {{!-- {{> header}} --}}
-  <header class="header" role="banner">
-    <h2>
-      <a href="/" title="Link to home page">{{ site.title }}</a>
-    </h2>
-    <a href="/" title="Link to home page">
-      <img src="/assets/images/logo.svg" alt="Groundwork Blank logo">
-    </a>
-    <h3>{{ site.description }}</h3>
-    <nav role="navigation">
-      <ol class="o-list-bare">
-        <li>
-          <a class="home" href="/" title="">Home</a>
-        </li>
-        <li>
-          <a class="about" href="/about/">About</a>
-        </li>
-      </ol>
-    </nav>
-  </header>
+  {{> header}}
 
   <div class="wrapper">
     <main role="main">
       {{{ contents }}}
     </main>
 
-    {{!-- {{> aside}} --}}
-    <aside role="complementary">
-      {{#each collections }}
-      <h2>Posts</h2>
-      <ol>
-        {{#each this }}
-        <li>
-          <a href="/{{ path }}">{{ title }}</a>
-        </li>
-        {{/each}}
-      </ol>
-      {{/each}}
-    </aside>
+    {{> aside}}
 
   </div>
 
-  {{!-- {{> footer}} --}}
-  <footer class="footer" id="footer" role="contentinfo">
-    <div>
-      <ol class="o-list-bare">
-        <a href="https://github.com/growdigital/groundwork" title="Link to Groundwork repository on GitHub">GitHub</a>
-        </li>
-        <li>
-          <a href="https://twitter.com/GroundWorkRocks" title="Link to Groundwork Twitter account">Twitter</a>
-        </li>
-        <li>
-          <a href="mailto:contact@groundwork.rocks" title="Email link to the author">Email</a>
-        </li>
-        <li>
-          <a href="https://www.groundwork.rocks/rss.xml" title="Link to RSS news feed">RSS</a>
-        </li>
-      </ol>
-    </div>
-    <div>
-      <p>Built by
-        <a href="https://www.growdigital.org/">Jake Rayson</a> with
-        <a href="http://www.metalsmith.io/">Metalsmith</a>, deployed by
-        <a href="https://www.netlify.com/">Netlify</a>
-      </p>
-      <p>Copyright &copy; Jake Rayson, licensed under
-        <a href="https://choosealicense.com/licenses/mit/">MIT</a> &amp;
-        <a href="https://choosealicense.com/licenses/gpl-3.0/">GPL v3</a>
-    </div>
-  </footer>
+  {{> footer}}
 
   <script src="/assets/scripts.js"></script>
 </body>
