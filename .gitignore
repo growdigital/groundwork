@@ -27,6 +27,10 @@ Thumbs.db
 *.sublime-workspace
 *.sublime-project
 
+# The Build Directory #
+#######################
+build
+
 # Logs
 logs
 *.log
