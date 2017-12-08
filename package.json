@@ -10,7 +10,12 @@
   },
   "version": "0.0.0-development",
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post",
+    "start": "node index.js",
+    "browser_sync": "browser-sync start --server build",
+    "dev":
+      "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'"
   },
   "repository": {
     "type": "git",
