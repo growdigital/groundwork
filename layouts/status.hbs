@@ -2,13 +2,12 @@
 <html lang="{{ site.lang }}">
 {{> head}}
 
-<body class="no-js post">
+<body class="no-js status">
   {{> header}}
   <div class="wrapper">
-    <div class="post">
-      <h1>{{ title }}</h1>
-      <time>{{ date }}</time>
+    <div class="status">
       {{{ contents }}}
+      <time>{{ date }}</time>
     </div>
   </div>
   {{> footer}}
