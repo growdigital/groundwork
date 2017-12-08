@@ -108,6 +108,14 @@ Metalsmith(__dirname)
       gfm: true
     })
   )
+  // Change your date format here
+  // Uses Moment.js http://momentjs.com/docs/#/displaying/
+  .use(
+    dateFormat({
+      key: 'date',
+      format: 'ddd D MMM YYYY'
+    })
+  )
   .use(permalinks())
   .use(
     templates({
