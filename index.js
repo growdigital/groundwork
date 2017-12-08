@@ -87,6 +87,15 @@ Metalsmith(__dirname)
     })
   )
   .use(drafts())
+  .use(
+    collection({
+      post: {
+        pattern: 'posts/**/*.md',
+        sortBy: 'date',
+        reverse: true
+      }
+    })
+  )
   .use(markdown())
   .use(permalinks())
   .use(
