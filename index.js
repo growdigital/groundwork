@@ -15,10 +15,13 @@ const uglifyjs = require('metalsmith-uglifyjs');
 
 Metalsmith(__dirname)
   .metadata({
-    // title: "My Static Site & Blog",
-    description: 'description',
-    generator: 'Metalsmith',
-    url: 'http://www.metalsmith.io/'
+    site: {
+      lang: 'en-gb',
+      title: 'Blank Groundwork',
+      description: 'Blank Metalsmith blog template',
+      url: 'https://blank.groundwork.rocks/',
+      author: 'Jake Rayson'
+    }
   })
   .source('./src')
   .destination('./build')
