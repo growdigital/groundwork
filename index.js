@@ -116,12 +116,13 @@ Metalsmith(__dirname)
       format: 'ddd D MMM YYYY'
     })
   )
-  .use(
-    permalinks({
-      pattern: './posts/:title',
-      relative: false
-    })
-  )
+  .use(permalinks())
+  // permalinks with settings not working
+  // .use(
+  //   permalinks({
+  //     pattern: ':title'
+  //   })
+  // )
   // I like Handlebars templating. You can use what you like.
   .use(
     templates({
