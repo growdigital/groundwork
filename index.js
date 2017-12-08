@@ -101,7 +101,8 @@ Metalsmith(__dirname)
   //   metadata({
   //     pattern: ['*.md', '*.html']
   //   })
-  // )  .use(markdown())
+  // )
+  .use(markdown())
   .use(permalinks())
   .use(
     templates({
