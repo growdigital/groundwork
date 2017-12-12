@@ -13,6 +13,8 @@ const postcss = require('metalsmith-postcss');
 const templates = require('metalsmith-layouts');
 const uglifyjs = require('metalsmith-uglifyjs');
 
+const debug = require('metalsmith-debug-ui');
+
 Metalsmith(__dirname)
   .metadata({
     site: {

@@ -23,14 +23,17 @@
     "metalsmith-writemetadata": "^0.4.5",
     "normalize.css": "^7.0.0",
     "postcss": "^6.0.14",
+    "metalsmith-debug-ui": "^0.3.0",
     "postcss-cssnext": "^3.0.2"
   },
   "version": "0.0.0-development",
   "scripts": {
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post",
     "start": "DEBUG=metalsmith-* node index.js",
     "browser_sync": "browser-sync start --server build",
-    "dev": "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
+    "dev":
+      "npm run browser_sync & NODE_ENV=development nodemon --exec 'npm start && browser-sync reload'",
     "build": "npm start"
   },
   "repository": {
