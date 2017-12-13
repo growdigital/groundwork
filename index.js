@@ -118,13 +118,13 @@ Metalsmith(__dirname)
       format: 'ddd D MMM YYYY'
     })
   )
-  // .use(permalinks())
-  // permalinks with settings not working
+  // Set permalinks
   .use(
     permalinks({
       // By default, create permalink from title field
       pattern: ':title',
       // Match pages, create permalink with slug field
+      // Set permalnk: false on index.md
       linksets: [
         {
           match: { collection: 'page' },

@@ -23,7 +23,6 @@
     "metalsmith-writemetadata": "^0.4.5",
     "normalize.css": "^7.0.0",
     "postcss": "^6.0.14",
-    "metalsmith-debug-ui": "^0.3.0",
     "postcss-cssnext": "^3.0.2"
   },
   "version": "0.0.0-development",
@@ -50,6 +49,7 @@
     "eslint-plugin-node": "^5.2.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "metalsmith-debug-ui": "^0.3.0",
     "nodemon": "^1.12.1",
     "semantic-release": "^8.2.0"
   }
