@@ -1,5 +1,7 @@
 ---
 title: About Groundwork
+slug: about
+collection: page
 layout: layout.hbs
 ---
 

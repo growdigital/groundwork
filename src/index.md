@@ -1,6 +1,8 @@
 ---
 title: Blank Groundwork page title
+collection: page
 layout: layout.hbs
+permalink: false
 ---
 
 # Metalsmith blog template

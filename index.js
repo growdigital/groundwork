@@ -122,7 +122,15 @@ Metalsmith(__dirname)
   // permalinks with settings not working
   .use(
     permalinks({
-      pattern: ':title'
+      // By default, create permalink from title field
+      pattern: ':title',
+      // Match pages, create permalink with slug field
+      linksets: [
+        {
+          match: { collection: 'page' },
+          pattern: ':slug'
+        }
+      ]
     })
   )
   // I like Handlebars templating. You can use what you like.
@@ -148,7 +156,9 @@ Metalsmith(__dirname)
         'assets/images/{name}{ext}'
     })
   )
+  // Use metalsmith-debug-ui http://localhost:3000/debug-ui
   .use(debug.report())
+  // Throw error
   .build(function(err, files) {
     if (err) {
       throw err;
