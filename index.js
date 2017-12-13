@@ -118,13 +118,13 @@ Metalsmith(__dirname)
       format: 'ddd D MMM YYYY'
     })
   )
-  .use(permalinks())
+  // .use(permalinks())
   // permalinks with settings not working
-  // .use(
-  //   permalinks({
-  //     pattern: ':title'
-  //   })
-  // )
+  .use(
+    permalinks({
+      pattern: ':title'
+    })
+  )
   // I like Handlebars templating. You can use what you like.
   .use(
     templates({
@@ -148,6 +148,7 @@ Metalsmith(__dirname)
         'assets/images/{name}{ext}'
     })
   )
+  .use(debug.report())
   .build(function(err, files) {
     if (err) {
       throw err;
