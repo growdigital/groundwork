@@ -2,7 +2,7 @@
 
 ### Metalsmith blog template. It rocks.
 
-Super simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/). Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
+Super simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code. Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
 
 ```
 $ git clone git@github.com:growdigital/groundwork
@@ -10,9 +10,7 @@ $ cd groundwork
 $ npm run dev
 ```
 
-Created with modular CSS and JavaScript in mind 😍
-
-Email Jake <mailto:contact@growdigital.org> if you’d like to help out creating an easy to use Static Site Generator blog template for cheap, secure and performant independent web publishing.
+Created with modular CSS and JavaScript 😍
 
 ## Notes
 

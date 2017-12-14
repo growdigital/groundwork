@@ -3,6 +3,7 @@ const cleancss = require('metalsmith-clean-css');
 const collection = require('metalsmith-collections');
 const concat = require('metalsmith-concat');
 const dateFormat = require('metalsmith-date-formatter');
+const debug = require('metalsmith-debug-ui');
 const drafts = require('metalsmith-drafts');
 const feed = require('metalsmith-feed');
 const markdown = require('metalsmith-markdown');
@@ -12,8 +13,6 @@ const permalinks = require('metalsmith-permalinks');
 const postcss = require('metalsmith-postcss');
 const templates = require('metalsmith-layouts');
 const uglifyjs = require('metalsmith-uglifyjs');
-
-const debug = require('metalsmith-debug-ui');
 
 Metalsmith(__dirname)
   .metadata({
