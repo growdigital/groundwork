@@ -1,12 +1,10 @@
 <aside role="complementary">
-  {{#each collections }}
   <h2>Posts</h2>
   <ol>
-    {{#each this }}
+    {{#each collections.post}}
     <li>
-      <a href="/{{ path }}">{{ title }}</a>
+      <a href="/{{ this.path }}">{{this.title}}</a>
     </li>
     {{/each}}
   </ol>
-  {{/each}}
 </aside>
