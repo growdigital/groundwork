@@ -10,7 +10,7 @@ $ cd groundwork
 $ npm run dev
 ```
 
-[www.groundwork.rocks](https://www.groundwork.rocks/)
+Documentation: [www.groundwork.rocks](https://www.groundwork.rocks/)
 
 Created with modular CSS and JavaScript 😍
 
