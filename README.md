@@ -4,13 +4,17 @@
 
 Super simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code. Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
 
+## Installation
+
 ```
 $ git clone git@github.com:growdigital/groundwork
 $ cd groundwork
 $ npm run dev
 ```
 
-Documentation: [www.groundwork.rocks](https://www.groundwork.rocks/)
+## Documentation
+
+[www.groundwork.rocks](https://www.groundwork.rocks/)
 
 Created with modular CSS and JavaScript 😍
 
