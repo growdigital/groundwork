@@ -32,7 +32,12 @@ a {
 a:hover,
 a:focus,
 a:active {
+  color: var(--indigo);
   text-decoration: underline;
+}
+
+a:visited {
+  color: var(--purple);
 }
 
 *:focus {
