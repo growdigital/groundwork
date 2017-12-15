@@ -1,5 +1,7 @@
 # Groundwork
 
+![Groundwork logo](build/assets/images/logo.png)
+
 ### Metalsmith blog template. It rocks.
 
 Simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code.  
