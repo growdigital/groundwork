@@ -9,7 +9,7 @@ permalink: false
 
 See [www.groundwork.rocks](https://www.groundwork.rocks) for instructions. [Fork me on GitHub](https://github.com/growdigital/groundwork).
 
-## Quick start:
+## Quick start
 
 ```bash
 $ git clone git@github.com:growdigital/groundwork.git
