@@ -1,6 +1,6 @@
 # Groundwork
 
-![Groundwork logo](build/assets/images/logo.png)
+![Groundwork logo](src/modules/components/graphics/logo/logo.png)
 
 ### Metalsmith blog template. It rocks.
 
