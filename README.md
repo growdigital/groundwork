@@ -2,7 +2,8 @@
 
 ### Metalsmith blog template. It rocks.
 
-Super simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code. Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
+Simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code.  
+Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
 
 ## Installation
 
