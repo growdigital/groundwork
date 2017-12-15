@@ -94,6 +94,11 @@ Metalsmith(__dirname)
         pattern: 'posts/**/*.md',
         sortBy: 'date',
         reverse: true
+      },
+      status: {
+        pattern: 'status/**/*.md',
+        sortBy: 'date',
+        reverse: true
       }
     })
   )
