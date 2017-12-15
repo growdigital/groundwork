@@ -21,7 +21,7 @@ $ npm run dev
 
 [www.groundwork.rocks](https://www.groundwork.rocks/)
 
-Created with modular CSS and JavaScript 😍
+Create your static site blog with modular CSS and JavaScript 😍
 
 ## Notes
 
