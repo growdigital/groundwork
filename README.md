@@ -17,6 +17,7 @@ independently publish your website to your social networks.
 ```
 $ git clone git@github.com:growdigital/groundwork
 $ cd groundwork
+$ npm install
 $ npm run dev
 ```
 
