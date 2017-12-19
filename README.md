@@ -35,6 +35,8 @@ More in-depth documentation: [www.groundwork.rocks](https://www.groundwork.rocks
 
 Issues and features in the [Groundwork Roadmap](https://github.com/growdigital/groundwork/projects/1) 😍
 
+[![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)
+
 [issue-badge]: https://codeclimate.com/github/growdigital/groundwork/badges/issue_count.svg
 [issue-url]: https://codeclimate.com/github/growdigital/groundwork/issues
 [dep-badge]: https://www.versioneye.com/user/projects/599ca850368b08141959f90f/badge.svg?style=flat-square
