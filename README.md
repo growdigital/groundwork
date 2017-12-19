@@ -1,13 +1,15 @@
 # Groundwork
 
-![Groundwork logo](src/modules/components/graphics/logo/logo.png)
+[![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Build status][build-badge]][build-url]
 
 ### Metalsmith blog template. It rocks.
+
+![Groundwork logo](src/modules/components/graphics/logo/logo.png)
 
 Simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code.  
 Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
 
-Predicated on [IndieWeb](https://indieweb.org/) and [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE).
+Predicated on [IndieWeb](https://indieweb.org/) and [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE): independently publish your website to your social networks.
 
 ## Installation
 
@@ -23,8 +25,9 @@ $ npm run dev
 
 Create your static site blog with modular CSS and JavaScript 😍
 
-## Notes
-
-* [Airbnb](https://www.airbnb.co.uk/)’s [eslint-config-airbnb-base](https://www.npmjs.com/package/eslint-config-airbnb) [ESlint](https://eslint.org/) configuration for linting JavaScript.
-* [Prettier](https://prettier.io/), [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) [integration](https://prettier.io/docs/en/eslint.html#turn-off-eslint-s-formatting-rules) and [.prettierrc](https://github.com/growdigital/groundwork/blob/master/.prettierrc) for nice formatting.
-* [semantic-release](https://www.npmjs.com/package/semantic-release) for automated [semantic versioning](https://semver.org/).
+[issue-badge]: https://codeclimate.com/github/growdigital/groundwork/badges/issue_count.svg
+[issue-url]: https://codeclimate.com/github/growdigital/groundwork/issues
+[dep-badge]: https://www.versioneye.com/user/projects/599ca850368b08141959f90f/badge.svg?style=flat-square
+[dep-url]: https://www.versioneye.com/user/projects/58d97d9226a5bb002b54bea2
+[build-badge]: https://travis-ci.org/growdigital/groundwork.svg?branch=master
+[build-url]: https://travis-ci.org/growdigital/groundwork
