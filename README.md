@@ -9,7 +9,8 @@
 Simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code.  
 Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
 
-Predicated on [IndieWeb](https://indieweb.org/) and [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE): independently publish your website to your social networks.
+Predicated on [IndieWeb](https://indieweb.org/) and [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE):  
+independently publish your website to your social networks.
 
 ## Installation
 
