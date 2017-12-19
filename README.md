@@ -22,9 +22,18 @@ $ npm run dev
 
 ## Documentation
 
-[www.groundwork.rocks](https://www.groundwork.rocks/)
+1. Make it your own by entering your details in `package.json` and `index.js`
+2. Change your CSS settings `/src/assets/css/settings/`
+3. Modify/create templates in `/layouts/` and `/partials/`
+4. Add new modules in `/src/components/` (discrete components) and `/src/objects/` (design patterns).
+5. Get rid of legacy CSS in `/src/assets/css/shame.css`
+6. Create new posts in `/src/posts/`
+7. Push to your git repo eg on [GitHub](https://github.com/)
+8. Publish to the platform of your choice eg [Netlify](https://www.netlify.com), [Now](https://zeit.co/now), [Surge](https://surge.sh/)…
 
-Create your static site blog with modular CSS and JavaScript 😍
+More in-depth documentation: [www.groundwork.rocks](https://www.groundwork.rocks/)
+
+Issues and features in the [Groundwork Roadmap](https://github.com/growdigital/groundwork/projects/1) 😍
 
 [issue-badge]: https://codeclimate.com/github/growdigital/groundwork/badges/issue_count.svg
 [issue-url]: https://codeclimate.com/github/growdigital/groundwork/issues
