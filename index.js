@@ -137,20 +137,20 @@ Metalsmith(__dirname)
       ]
     })
   )
-  // I like Handlebars templating. You can use what you like.
-  .use(
-    templates({
-      engine: 'handlebars',
-      partials: 'partials'
-    })
-  )
   // Create RSS feed
   .use(
     feed({
       collection: 'post',
       postDescription(file) {
-        return file.excerpt;
+        return file.contents;
       }
+    })
+  )
+  // I like Handlebars templating. You can use what you like.
+  .use(
+    templates({
+      engine: 'handlebars',
+      partials: 'partials'
     })
   )
   // Move graphics assets out of modules and into /assets/images/ directory
