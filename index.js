@@ -90,13 +90,15 @@ Metalsmith(__dirname)
   .use(drafts())
   .use(
     collection({
+      // Post collection: just posts
       post: {
         pattern: 'posts/**/*.md',
         sortBy: 'date',
         reverse: true
       },
+      // Status collection: status & posts
       status: {
-        pattern: 'status/**/*.md',
+        pattern: ['status/**/*.md', 'posts/**/*.md'],
         sortBy: 'date',
         reverse: true
       }
@@ -137,13 +139,20 @@ Metalsmith(__dirname)
       ]
     })
   )
-  // Create RSS feed
+  // RSS feed for newsreaders
   .use(
     feed({
       collection: 'post',
       postDescription(file) {
         return file.contents;
       }
+    })
+  )
+  // RSS feed for social feed
+  .use(
+    feed({
+      collection: 'status',
+      destination: 'status.xml'
     })
   )
   // I like Handlebars templating. You can use what you like.
