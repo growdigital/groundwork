@@ -1,5 +1,6 @@
 ---
 title: Blank Groundwork page title
+excerpt: Groundwork is a Metalsmith blog template built with Modular CSS and the principles of IndieWeb and POSSE (Publish Once on your Site, Syndicate Elsewhere)
 collection: page
 layout: layout.hbs
 permalink: false

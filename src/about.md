@@ -1,5 +1,6 @@
 ---
 title: About Groundwork
+excerpt: Blog template for the Static Site Generator Metalsmith, creating RSS feeds to be consumed by all your social networks
 slug: about
 collection: page
 layout: layout.hbs
