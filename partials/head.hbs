@@ -5,4 +5,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
   <link rel="stylesheet" href="/assets/styles.css">
   <link rel="shortcut icon" href="/assets/images/favicon.ico">
+
+  <!-- Twitter Summary Card with Large Image data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="{{ site.twitter }}">
+  <meta name="twitter:creator" content=" {{ site.twitter }}">
+  <meta name="twitter:title" content="{{ title }}">
+  <meta name="twitter:description" content="{{ excerpt }}">
+  <meta name="twitter:image" content="{{ thumbnail }}">
+
+  <!-- Schema.org markup for Google+ -->
+  <meta itemprop="name" content="{{ title }}">
+  <meta itemprop="description" content="{{ excerpt }}">
+  <meta itemprop="image" content="{{ path }}">
+
+  <!-- Open Graph data -->
+  <meta property="og:locale" content="{{ site.lang }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{ title }}">
+  <meta property="article:published_time" content="{{ date }}" />
+  <meta property="og:description" content="{{ excerpt }}">
+  <meta property="og:image" content="{{ thumbnail }}">
+  <meta property="og:url" content="{{ path }}">
 </head>

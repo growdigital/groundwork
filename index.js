@@ -21,7 +21,8 @@ Metalsmith(__dirname)
       title: 'Blank Groundwork',
       description: 'Blank Metalsmith blog template',
       url: 'https://blank.groundwork.rocks/',
-      author: 'Jake Rayson'
+      author: 'Jake Rayson',
+      twitter: '@GroundworkRocks'
     }
   })
   .source('./src')
