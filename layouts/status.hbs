@@ -5,10 +5,10 @@
 <body class="no-js status">
   {{> header}}
   <div class="wrapper">
-    <div class="status">
+    <article class="status">
       {{{ contents }}}
-      <time>{{ date }}</time>
-    </div>
+      <time pubdate>{{ date }}</time>
+    </article>
   </div>
   {{> footer}}
   <script src="/assets/scripts.js"></script>

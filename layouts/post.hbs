@@ -5,11 +5,11 @@
 <body class="no-js post">
   {{> header}}
   <div class="wrapper">
-    <div class="post">
+    <article class="post">
       <h1>{{ title }}</h1>
-      <time>{{ date }}</time>
+      <time pubdate>{{ date }}</time>
       {{{ contents }}}
-    </div>
+    </article>
   </div>
   {{> footer}}
   <script src="/assets/scripts.js"></script>
