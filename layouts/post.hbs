@@ -6,12 +6,7 @@
   {{> header}}
   <div class="wrapper">
     <article class="post" itemscope itemtype="http://schema.org/Article">
-
-      <!-- Schema.org markup for Google+ -->
-      <meta itemprop="name" content="{{ title }}">
-      <meta itemprop="description" content="{{ excerpt }}">
-      <meta itemprop="image" content="{{ image }}">
-
+      {{> schema}}
       <h1>{{ title }}</h1>
       <time pubdate>{{ date }}</time>
       {{{ contents }}}
