@@ -22,7 +22,6 @@ Metalsmith(__dirname)
       description: 'Blank Metalsmith blog template',
       url: 'https://blank.groundwork.rocks/',
       author: 'Jake Rayson',
-      publisher: 'Grow Digital',
       twitter: '@GroundworkRocks',
       fbapp_id: '545470365821360'
     }
