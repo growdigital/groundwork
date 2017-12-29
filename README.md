@@ -23,7 +23,7 @@ $ npm run dev
 
 ## Documentation
 
-1. Make it your own by entering your details in `package.json` and `index.js`
+1. Make it your own: enter your details in `package.json` and `index.js`
 2. Change your CSS settings `/src/assets/css/settings/`
 3. Modify/create templates in `/layouts/` and `/partials/`
 4. Add new modules in `/src/components/` (discrete components) and `/src/objects/` (design patterns).
