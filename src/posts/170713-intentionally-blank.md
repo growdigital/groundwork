@@ -2,13 +2,12 @@
 title: Intentionally blank
 excerpt: Excerpt, a post which has been left intentionally blank
 date: 2017-07-13
-update: 
-image: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Sabyinyo.jpg/640px-Sabyinyo.jpg
+image: https://farm5.staticflickr.com/4725/38665529034_dd03ba2fba_z_d.jpg
 imagealt: Photo of Sabyinyo mountain
 layout: post.hbs
 collection: post
 ---
 
-This blog post is intentionally blank.
+This blog post is intentionally blank. There is an unrelated image in the front matter for testing purposes.
 
 Fill in the blanks!
