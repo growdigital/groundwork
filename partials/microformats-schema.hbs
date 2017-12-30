@@ -1,8 +1,13 @@
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="headline" content="{{ title }}">
 <meta itemprop="description" content="{{ excerpt }}">
-<meta itemprop="datePublished" content="{{ date }}">
 <meta itemprop="image" content="{{ image }}">
 <meta itemprop="author" content="{{ site.author }}">
-<meta itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-<meta itemprop="publisher.name" itemscope itemtype="http://schema.org/name" content="{{ site.publisher }}">
+<div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+  <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
+    <meta itemprop="url" content="{{ site.url }}assets/images/logo.png">
+    <meta itemprop="width" content="218">
+    <meta itemprop="height" content="136">
+  </div>
+  <meta itemprop="name" content="{{ site.publisher }}">
+</div>

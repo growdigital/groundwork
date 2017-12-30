@@ -5,9 +5,9 @@
 <body class="no-js status">
   {{> header}}
   <div class="wrapper">
-    <article class="status" itemscope itemtype="http://schema.org/SocialMediaPosting">
+    <article class="status" itemscope itemtype="https://schema.org/SocialMediaPosting">
       {{> microformats-schema}} {{{ contents }}}
-      <time pubdate>{{ date }}</time>
+      <time pubdate itemprop="datePublished">{{ date }}</time>
     </article>
   </div>
   {{> footer}}
