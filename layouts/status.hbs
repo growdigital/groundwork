@@ -5,9 +5,13 @@
 <body class="no-js status">
   {{> header}}
   <div class="wrapper">
-    <article class="status" itemscope itemtype="https://schema.org/SocialMediaPosting">
-      {{> microformats-schema}} {{{ contents }}}
-      <time pubdate itemprop="datePublished">{{ date }}</time>
+    <article class="status h-entry" itemscope itemtype="https://schema.org/SocialMediaPosting">
+      {{> microformats-schema}}
+      <div class="e-content">
+        {{{ contents }}}
+      </div>
+      <time class="dt-published" pubdate itemprop="datePublished">{{ date }}</time>
+      {{> microformats-author-url}}
     </article>
   </div>
   {{> footer}}

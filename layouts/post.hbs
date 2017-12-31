@@ -5,11 +5,15 @@
 <body class="no-js post">
   {{> header}}
   <div class="wrapper">
-    <article class="post" itemscope itemtype="https://schema.org/Article">
+    <article class="post h-entry" itemscope itemtype="https://schema.org/Article">
       {{> microformats-schema}}
-      <h1>{{ title }}</h1>
-      <time pubdate itemprop="datePublished">{{ date }}</time>
-      {{{ contents }}}
+      <h1 class="p-name">{{ title }}</h1>
+      <p class="p-summary">{{ excerpt }}</p>
+      <time class="dt-published" pubdate itemprop="datePublished">{{ date }}</time>
+      <div class="e-content">
+        {{{ contents }}}
+      </div>
+      {{> microformats-author-url}}
     </article>
   </div>
   {{> footer}}
