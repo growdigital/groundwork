@@ -100,8 +100,13 @@ Metalsmith(__dirname)
         sortBy: 'date',
         reverse: true
       },
-      // Status collection: status & posts
       status: {
+        pattern: 'status/**/*.md',
+        sortBy: 'date',
+        reverse: true
+      },
+      // Status collection: status & posts
+      syndicate: {
         pattern: ['status/**/*.md', 'posts/**/*.md'],
         sortBy: 'date',
         reverse: true
@@ -124,8 +129,16 @@ Metalsmith(__dirname)
   // Uses Moment.js http://momentjs.com/docs/#/displaying/
   .use(
     dateFormat({
-      key: 'date',
-      format: 'ddd D MMM YYYY'
+      dates: [
+        {
+          key: 'date',
+          format: 'ddd D MMM YYYY'
+        },
+        {
+          key: 'statusDate',
+          format: 'YYMMDD-hhmm-ss'
+        }
+      ]
     })
   )
   // Set permalinks
@@ -139,6 +152,11 @@ Metalsmith(__dirname)
         {
           match: { collection: 'page' },
           pattern: ':slug'
+        },
+        {
+          match: { collection: 'status' },
+          pattern: 'status/:statusDate',
+          date: 'mmddyy'
         }
       ]
     })
@@ -155,8 +173,8 @@ Metalsmith(__dirname)
   // RSS feed for social feed
   .use(
     feed({
-      collection: 'status',
-      destination: 'status.xml'
+      collection: 'syndicate',
+      destination: 'syndicate.xml'
     })
   )
   // I like Handlebars templating. You can use what you like.
