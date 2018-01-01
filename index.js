@@ -90,6 +90,7 @@ Metalsmith(__dirname)
       }
     })
   )
+  // Add value draft: true to front matter
   .use(drafts())
   .use(
     collection({
@@ -131,7 +132,7 @@ Metalsmith(__dirname)
   .use(
     permalinks({
       // By default, create permalink from title field
-      pattern: ':title',
+      pattern: 'blog/:title',
       // Match pages, create permalink with slug field
       // Set permalnk: false on index.md
       linksets: [
