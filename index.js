@@ -97,7 +97,7 @@ Metalsmith(__dirname)
       // Post collection: just posts
       post: {
         pattern: 'posts/**/*.md',
-        sortBy: 'date',
+        sortBy: 'datePublished',
         reverse: true
       },
       status: {
@@ -131,7 +131,7 @@ Metalsmith(__dirname)
     dateFormat({
       dates: [
         {
-          key: 'date',
+          key: 'datePublished',
           format: 'ddd D MMM YYYY'
         },
         {

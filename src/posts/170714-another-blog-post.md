@@ -1,7 +1,7 @@
 ---
 title: Another blog post
 excerpt: This is an excerpt from the another blog post
-date: 2017-07-14
+datePublished: 2017-07-14
 image: https://farm5.staticflickr.com/4730/38558978625_c4c844e857_z_d.jpg
 imagealt: Photo of misty woodland path 
 layout: post.hbs
