@@ -155,7 +155,7 @@ Metalsmith(__dirname)
         },
         {
           match: { collection: 'status' },
-          pattern: 'status/:statusDate',
+          pattern: 'status/:filename',
           date: 'mmddyy'
         }
       ]
