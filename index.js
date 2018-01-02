@@ -102,7 +102,7 @@ Metalsmith(__dirname)
       },
       status: {
         pattern: 'status/**/*.md',
-        sortBy: 'date',
+        sortBy: 'statusDate',
         reverse: true
       },
       // Status collection: status & posts
