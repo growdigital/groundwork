@@ -9,10 +9,22 @@
       {{> microformats-schema}}
       <div class="e-content">
         <h1 class="p-name">{{ title }}</h1>
+        <img src="{{ image }}" alt="{{ imagealt }}">
+        </figure>
         {{{ contents }}}
       </div>
-      <time class="dt-published" pubdate itemprop="datePublished">{{ statusDate }}</time>
-      {{> microformats-author-url}}
+      <dl>
+        <dt>Date:</dt>
+        <dd>
+          <time class="dt-published" pubdate itemprop="datePublished">{{ statusDate }}</time>
+        </dd>
+        <dt>Author:</dt>
+        <dd class="p-author">{{ site.author }}</dd>
+        <dt>Permalink URL:</dt>
+        <dd>
+          <a class="u-url" href="{{ site.url }}{{ path }}/">{{ site.url }}{{ path }}/</a>
+        </dd>
+      </dl>
     </article>
   </div>
   {{> footer}}

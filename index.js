@@ -136,7 +136,7 @@ Metalsmith(__dirname)
         },
         {
           key: 'statusDate',
-          format: 'YYMMDD-hhmm-ss'
+          format: 'ddd D MMM YYYY, hh:mm:ss'
         }
       ]
     })
