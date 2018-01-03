@@ -19,11 +19,15 @@ Metalsmith(__dirname)
     site: {
       lang: 'en-gb',
       title: 'Groundwork',
-      description: 'Blank Metalsmith blog template',
+      description: 'Metalsmith blog template',
       url: 'https://blank.groundwork.rocks/',
       author: 'Jake Rayson',
       publisher: 'Grow Digital',
-      twitter: '@GroundworkRocks',
+      email: 'contact@groundwork.rocks',
+      twitter: 'GroundworkRocks',
+      github: 'GroundworkRocks',
+      googleplus: '112980419722341078999',
+      facebook: 'Groundwork-Rocks-1355595931213499',
       fbapp_id: '545470365821360'
     }
   })
