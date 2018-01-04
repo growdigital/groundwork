@@ -1,7 +1,15 @@
 <aside role="complementary">
-  <h2>Posts</h2>
+  <h2>Blog posts</h2>
   <ol>
     {{#each collections.blog}}
+    <li>
+      <a href="/{{ this.path }}">{{this.title}}</a>
+    </li>
+    {{/each}}
+  </ol>
+  <h2>Status udpates</h2>
+  <ol>
+    {{#each collections.status}}
     <li>
       <a href="/{{ this.path }}">{{this.title}}</a>
     </li>
