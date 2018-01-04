@@ -100,18 +100,24 @@ Metalsmith(__dirname)
     collection({
       // Blog collection: just blog posts
       blog: {
-        pattern: 'blog/**/*.md',
+        pattern: ['blog/*.md', '!blog/index.md'],
         sortBy: 'datePublished',
         reverse: true
       },
+      // Status collection, just statuses
       status: {
-        pattern: 'status/**/*.md',
+        pattern: ['status/*.md', '!status/index.md'],
         sortBy: 'statusDate',
         reverse: true
       },
-      // Status collection: status & blog posts
+      // Syndicate collection: status & blog posts
       syndicate: {
-        pattern: ['status/**/*.md', 'blog/**/*.md'],
+        pattern: [
+          'blog/*.md',
+          '!blog/index.md',
+          'status/*.md',
+          '!status/index.md'
+        ],
         sortBy: 'date',
         reverse: true
       }
