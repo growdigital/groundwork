@@ -5,7 +5,7 @@ datePublished: 2017-07-14
 image: https://farm5.staticflickr.com/4730/38558978625_c4c844e857_z_d.jpg
 imagealt: Photo of misty woodland path 
 layout: post.hbs
-collection: post
+collection: blog
 ---
 
 <figure>

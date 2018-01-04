@@ -98,9 +98,9 @@ Metalsmith(__dirname)
   .use(drafts())
   .use(
     collection({
-      // Post collection: just posts
-      post: {
-        pattern: 'posts/**/*.md',
+      // Blog collection: just blog posts
+      blog: {
+        pattern: 'blog/**/*.md',
         sortBy: 'datePublished',
         reverse: true
       },
@@ -109,9 +109,9 @@ Metalsmith(__dirname)
         sortBy: 'statusDate',
         reverse: true
       },
-      // Status collection: status & posts
+      // Status collection: status & blog posts
       syndicate: {
-        pattern: ['status/**/*.md', 'posts/**/*.md'],
+        pattern: ['status/**/*.md', 'blog/**/*.md'],
         sortBy: 'date',
         reverse: true
       }
@@ -168,7 +168,7 @@ Metalsmith(__dirname)
   // RSS feed for newsreaders
   .use(
     feed({
-      collection: 'post',
+      collection: 'blog',
       postDescription(file) {
         return file.contents;
       }
