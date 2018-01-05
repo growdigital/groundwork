@@ -8,7 +8,7 @@
 
 Simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code.
 
-Promoting the principles of [IndieWeb](https://indieweb.org/) and [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE).
+Promoting [IndieWeb](https://indieweb.org/) principles of [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE).
 
 ## Installation
 
