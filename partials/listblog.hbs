@@ -1,9 +1,8 @@
-{{#each collections.blog }}
-<ol class="o-list-disc">
-  {{#each this }}
+<ol>
+  {{#each collections.blog as |blog|}}
   <li>
-    <a href="/{{ path }}">{{ title }}</a>
-    <br>{{ excerpt }}</li>
+    <a href="/{{ blog.path }}">{{ blog.title }}</a>
+    <br>{{ blog.excerpt }}
+  </li>
   {{/each}}
 </ol>
-{{/each}}

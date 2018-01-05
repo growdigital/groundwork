@@ -1,9 +1,7 @@
-{{#each collections.status }}
-<ol class="o-list-disc">
-  {{#each this }}
+<ol>
+  {{#each collections.status as |status|}}
   <li>
-    <a href="/{{ path }}">{{ title }}</a>
-    <br>{{ excerpt }}</li>
+    <a href="/{{ status.path }}">{{ status.title }}</a>
+  </li>
   {{/each}}
 </ol>
-{{/each}}
