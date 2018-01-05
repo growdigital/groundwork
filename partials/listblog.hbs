@@ -1,0 +1,8 @@
+<ol>
+  {{#each collections.blog as |blog|}}
+  <li>
+    <a href="/{{ blog.path }}">{{ blog.title }}</a>
+    <br>{{ blog.excerpt }}
+  </li>
+  {{/each}}
+</ol>

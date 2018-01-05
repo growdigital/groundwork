@@ -79,3 +79,7 @@
 .o-list-bare > * {
   margin: 0 1rem;
 }
+
+hr {
+  border-top: 1px solid var(--light);
+}

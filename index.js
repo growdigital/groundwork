@@ -98,20 +98,26 @@ Metalsmith(__dirname)
   .use(drafts())
   .use(
     collection({
-      // Post collection: just posts
-      post: {
-        pattern: 'posts/**/*.md',
+      // Blog collection: just blog posts
+      blog: {
+        pattern: ['blog/*.md', '!blog/index.md'],
         sortBy: 'datePublished',
         reverse: true
       },
+      // Status collection, just statuses
       status: {
-        pattern: 'status/**/*.md',
+        pattern: ['status/*.md', '!status/index.md'],
         sortBy: 'statusDate',
         reverse: true
       },
-      // Status collection: status & posts
+      // Syndicate collection: status & blog posts
       syndicate: {
-        pattern: ['status/**/*.md', 'posts/**/*.md'],
+        pattern: [
+          'blog/*.md',
+          '!blog/index.md',
+          'status/*.md',
+          '!status/index.md'
+        ],
         sortBy: 'date',
         reverse: true
       }
@@ -168,7 +174,7 @@ Metalsmith(__dirname)
   // RSS feed for newsreaders
   .use(
     feed({
-      collection: 'post',
+      collection: 'blog',
       postDescription(file) {
         return file.contents;
       }

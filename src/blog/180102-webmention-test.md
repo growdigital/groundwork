@@ -5,7 +5,7 @@ datePublished: 2018-01-02
 image: https://farm5.staticflickr.com/4737/39380811912_ebdde2e972_z_d.jpg
 imagealt: Polytunnel in the last light of the year
 layout: post.hbs
-collection: post
+collection: blog
 ---
 
 <figure>

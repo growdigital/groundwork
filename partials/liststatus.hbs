@@ -1,0 +1,7 @@
+<ol>
+  {{#each collections.status as |status|}}
+  <li>
+    <a href="/{{ status.path }}">{{ status.title }}</a>
+  </li>
+  {{/each}}
+</ol>
