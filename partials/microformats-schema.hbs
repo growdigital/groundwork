@@ -1,7 +1,7 @@
 <!-- Schema.org markup for Google+ -->
 <meta itemprop="headline" content="{{ title }}">
 <meta itemprop="description" content="{{ excerpt }}">
-<meta itemprop="image" content="{{ image }}">
+<meta itemprop="image" content="{{#if image}}{{ image }}{{else}}{{ site.url }}{{ site.publisherLogo }}{{/if}}">
 <meta itemprop="author" content="{{ site.author }}">
 <div itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
   <div itemprop="logo" itemscope itemtype="https://schema.org/ImageObject">
