@@ -1,11 +1,18 @@
-<!-- Twitter Summary Card with Large Image data -->
-<meta name="twitter:card" content="summary_large_image">
+<!-- Twitter -->
 <meta name="twitter:site" content="@{{ site.twitter }}">
 <meta name="twitter:title" content="{{ title }}">
-<meta name="twitter:description" content="{{ excerpt }}">
+<meta name="twitter:description" content="{{ excerpt }}"> {{#if image}}
+<!-- Twitter Summary Card with Large Image data -->
 <!-- Aspect ratio 2:1, minimum dimension 300x157 -->
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ image }}">
-<meta name="twitter:image:alt" content="{{ imagealt }}">
+<meta name="twitter:image:alt" content="{{ imagealt }}"> {{else}}
+<!-- Twitter Summary Card -->
+<!-- Aspect ratio 1:1, minimum dimension 144x144 -->
+<!-- Defaulting to author image -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{{ site.url }}{{ site.publisherLogo }}">
+<meta name="twitter:image:alt" content="{{ site.publisher }} logo"> {{/if}}
 
 <!-- Open Graph data -->
 <meta property="fb:app_id" content="{{ site.fbapp_id }}">
