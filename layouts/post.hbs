@@ -11,7 +11,12 @@
       <p class="p-summary">{{ excerpt }}</p>
       <time class="dt-published" pubdate itemprop="datePublished">{{ datePublished }}</time>
       <div class="e-content">
-        {{{ contents }}}
+        {{#if image}}
+        <figure>
+          <img src="{{ image }}" alt="{{ imageAlt }}">
+          <figcaption>{{ imageCap }}</figcaption>
+        </figure>
+        {{/if}} {{{ contents }}}
       </div>
       <dl>
         <dt>Author:</dt>

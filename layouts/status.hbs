@@ -9,9 +9,12 @@
       {{> microformats-schema}}
       <div class="e-content">
         <h1 class="p-name">{{ title }}</h1>
-        <img src="{{ image }}" alt="{{ imagealt }}">
+        {{#if image}}
+        <figure>
+          <img src="{{ image }}" alt="{{ imageAlt }}">
+          <figcaption>{{ imageCap }}</figcaption>
         </figure>
-        {{{ contents }}}
+        {{/if}} {{{ contents }}}
       </div>
       <dl>
         <dt>Date:</dt>
