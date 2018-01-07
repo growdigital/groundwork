@@ -10,7 +10,7 @@
 
 ## Installation
 
-Install with `$ git clone…` _not_ `$ npm install…`. Make sure you have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/).
+Install with `$ git clone…` _**not**_ `$ npm install…`. Make sure you have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/).
 
 ```
 $ git clone git@github.com:growdigital/groundwork
