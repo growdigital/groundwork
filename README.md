@@ -6,13 +6,11 @@
 
 ![Groundwork logo](src/modules/components/graphics/logo/logo.png)
 
-Simple [static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), for web designers that code.
-
-Promoting [IndieWeb](https://indieweb.org/) principles of [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE).
+[Static site](https://www.staticgen.com/) blog template built with [Metalsmith](http://www.metalsmith.io/), featuring Modular CSS, for web designers that code. Promoting [IndieWeb](https://indieweb.org/) principles of [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE).
 
 ## Installation
 
-Make sure to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/) installed.
+Install with `$ git clone…` _not_ `$ npm install…`. Make sure you have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/).
 
 ```
 $ git clone git@github.com:growdigital/groundwork
