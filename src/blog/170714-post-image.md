@@ -9,4 +9,4 @@ layout: post.hbs
 collection: blog
 ---
 
-Content from another blog post.
+Body content from another blog post. Short but still the body content.

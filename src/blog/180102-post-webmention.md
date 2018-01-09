@@ -9,7 +9,7 @@ layout: post.hbs
 collection: blog
 ---
 
-But, moreover, a test indeed to see if and how webmentions work over at [Jeremy Keith’s website](https://adactio.com/journal/6495). As he says:
+Post body. But, moreover, a test indeed to see if and how webmentions work over at [Jeremy Keith’s website](https://adactio.com/journal/6495). As he says:
 
 > Feel free to use this post as a test.
 

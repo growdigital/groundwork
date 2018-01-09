@@ -9,4 +9,4 @@ layout: post.hbs
 collection: post
 ---
 
-Post, body of the blog post.
+Post, body of the blog post. This is the body of the blog post. Do not be put off my its brevity.
