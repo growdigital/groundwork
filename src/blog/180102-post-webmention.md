@@ -1,6 +1,6 @@
 ---
-title: Webmention test
-excerpt: A blog post to test webmentions on @adactio’s web site
+title: Post Webmention test
+excerpt: A blog post excerpt, to test webmentions on @adactio’s web site
 datePublished: 2018-01-02
 image: https://farm5.staticflickr.com/4737/39380811912_ebdde2e972_z_d.jpg
 imageAlt: Polytunnel in the last light of the year

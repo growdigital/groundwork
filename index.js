@@ -178,6 +178,7 @@ Metalsmith(__dirname)
   .use(
     feed({
       collection: 'blog',
+      destination: 'rss.xml',
       postDescription(file) {
         return file.contents;
       }
@@ -186,7 +187,7 @@ Metalsmith(__dirname)
   // RSS feed for social feed
   .use(
     feed({
-      collection: 'syndicate',
+      collection: 'syndicate', // blog & status collection
       destination: 'syndicate.xml'
     })
   )

@@ -1,6 +1,6 @@
 ---
 title: Another blog post
-excerpt: This is an excerpt from the another blog post
+excerpt: Excerpt from another blog post
 datePublished: 2017-07-14
 image: https://farm5.staticflickr.com/4730/38558978625_c4c844e857_z_d.jpg
 imageAlt: Photo of misty woodland path 
@@ -9,4 +9,4 @@ layout: post.hbs
 collection: blog
 ---
 
-You get the idea! Write your own blog posts.
+Content from another blog post.
