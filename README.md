@@ -22,7 +22,7 @@ $ npm run dev
 ## Features
 
 * Simple installation via `git clone`
-* Modular CSS and JS – each component/object is a separate file
+* Modular CSS and JS: each component/object is a separate file
 * Auto-publish to Twitter, Facebook and Google+
 * Blog and status post types set up
 
