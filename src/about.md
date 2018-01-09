@@ -10,7 +10,7 @@ layout: layout.hbs
 
 ## Simple
 
-Groundwork is **very simple**. A blog template for [Metalsmith](http://www.metalsmith.io/), a JavaScript [Static Site Generator](https://www.staticgen.com/), built to write modular CSS and JavaScript, promoting [IndieWeb](https://indieweb.org/) principles of [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE).
+Groundwork is **very simple**. A blog template for [Metalsmith](http://www.metalsmith.io/), a JavaScript [Static Site Generator](https://www.staticgen.com/), built to write modular CSS and JavaScript, promoting [IndieWeb](https://indieweb.org/) principles of [Publish (on your) Own Site, Syndicate Elsewhere](https://indieweb.org/POSSE) (ie auto-publish your posts on Twitter, Facebook, Google+ and more).
 
 > Let’s simplify the happy path  
 > [Sean Thomas Larkin](https://twitter.com/thelarkinn)
