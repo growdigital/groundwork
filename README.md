@@ -37,7 +37,7 @@ $ npm run dev
 7. Push to your git repo eg on [GitHub](https://github.com/)
 8. Publish to the platform of your choice eg [Netlify](https://www.netlify.com), [Now](https://zeit.co/now), [Surge](https://surge.sh/)…
 
-More in-depth documentation: [www.groundwork.rocks](https://www.groundwork.rocks/)
+In-depth documentation: [www.groundwork.rocks](https://www.groundwork.rocks/)
 
 Issues and features in the [Groundwork Roadmap](https://github.com/growdigital/groundwork/projects/1) 😍
 
