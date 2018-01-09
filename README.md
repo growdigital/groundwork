@@ -46,7 +46,7 @@ Issues and features in the [Groundwork Roadmap](https://github.com/growdigital/g
 * Jake Rayson [contact@growdigital.org](contact@growdigital.org) [@growdigital](https://twitter.com/growdigital)
 * Twitter [@GroundworkRocks](https://twitter.com/GroundworkRocks)
 
-Made with pride in [Wales](https://en.wikipedia.org/wiki/Wales) 🏴󠁧󠁢󠁷󠁬󠁳󠁿
+Made with pride in [Wales](https://en.wikipedia.org/wiki/Wales) 🏴󠁧󠁢󠁷󠁬󠁳󠁿󠁧󠁢󠁷󠁬󠁳󠁿
 
 [![Deploys by Netlify](https://www.netlify.com/img/global/badges/netlify-dark.svg)](https://www.netlify.com)
 
