@@ -1,6 +1,6 @@
 # Groundwork
 
-## Development has halted 😞 Please @gohugoio & [Indiego](https://github.com/growdigital/indiego) 🙂
+## Development has halted 😞 Please [@gohugoio](https://github.com/gohugoio/) & [Indiego](https://github.com/growdigital/indiego) 🙂
 
 [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Build status][build-badge]][build-url]
 
