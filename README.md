@@ -1,5 +1,7 @@
 # Groundwork
 
+## Development has halted 😞 Please @gohugoio & [Indiego](https://github.com/growdigital/indiego) 🙂
+
 [![Issue Count][issue-badge]][issue-url] [![Dependency Status][dep-badge]][dep-url] [![Build status][build-badge]][build-url]
 
 ### Metalsmith blog template. It rocks.
